@@ -2,7 +2,7 @@ import java.net.*;
 import java.io.*;
 
 public class UDPClient {
-    public static void main(String args[]) { // args give message contents and server hostname
+    public static void main(String args[]) {
         DatagramSocket aSocket = null;
         if (args.length < 3) {
             System.out.println("Usage: java UDPClient ");
